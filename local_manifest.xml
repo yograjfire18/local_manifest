@@ -2,7 +2,7 @@
 <manifest>
 <remote name="github" fetch="https://github.com/" />
 #Sync-Trees 
-<project path="device/asus/Z01R" name="yograjsingh-cmd/android_device_asus_Z01R-2" remote="github" revision="corvus" />
+<project path="device/asus/Z01R" name="yograjsingh-cmd/android_device_asus_Z01R-2" remote="github" revision="derp" />
 <project path="vendor/asus" name="yograjsingh-cmd/proprietary_vendor_asus" remote="github" revision="lineage-18.1" />
 <project path="kernel/asus/sdm845" name="yograjsingh-cmd/kernel_z01r" remote="github" revision="eleven" />
 </manifest>
