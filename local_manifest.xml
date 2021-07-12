@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+#Sync-Trees 
+<project path="device/asus/Z01R" name="yograjsingh-cmd/android_device_asus_Z01R" remote="github" revision="lineage-18.1" />
+<project path="vendor/asus" name="yograjsingh-cmd/proprietary_vendor_asus" remote="github" revision="lineage-18.1" />
+<project path="kernel/asus/sdm845" name="yograjsingh-cmd/kernel_z01r" remote="github" revision="eleven" />
+   
+</manifest>
