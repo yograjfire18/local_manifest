@@ -4,8 +4,8 @@
 	<remote name="yogi"
 		fetch="https://github.com/yograjsingh-cmd" />
 
-        <project path="device/asus/Z01R" name="yograjsingh-cmd/android_device_asus_Z01R-2" remote="yogi" revision="corvus" />
-        <project path="vendor/asus" name="yograjsingh-cmd/proprietary_vendor_asus" remote="yogi" revision="lineage-18.1" />
-        <project path="kernel/asus/sdm845" name="yograjsingh-cmd/kernel_z01r" remote="yogi" revision="eleven" />
+        <project path="device/asus/Z01R" name="android_device_asus_Z01R-2" remote="yogi" revision="corvus" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="yogi" revision="lineage-18.1" />
+        <project path="kernel/asus/sdm845" name="kernel_z01r" remote="yogi" revision="eleven" />
 		
 </manifest>
