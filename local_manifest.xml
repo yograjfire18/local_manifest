@@ -4,7 +4,7 @@
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
 	<remote name="a" fetch="https://github.com/AOSPA" />
 
-    	<project path="device/asus/Z01R" name="device_asus_Z01R-2" remote="yogi" revision="corvus" />
+    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="d-t" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="lineage-18.1" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="yogi" revision="eleven" />
 	
