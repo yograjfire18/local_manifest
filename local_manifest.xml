@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
 	<remote name="a" fetch="https://github.com/AOSPA" />
+<remote name="ayan" fetch="https://github.com/ayanm09" />
 
-    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="d-t" />
-    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="lineage-18.1" />
-    	<project path="kernel/asus/sdm845" name="kernel_asus_sdm845" remote="yogi" revision="11" />
-	
+    	<project path="device/asus/Z01R" name="device_asus_Z01R-1" remote="yogi" revision="11" />
+    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="ylt" />
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="ayan" revision="eleven" />
+
 	<!-- GCC -->
 	<!--project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="yogi" revision="master" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="yogi" revision="master" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="yogi" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="yogi" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="yogi" clone-depth="1" /-->
-	
 </manifest>
