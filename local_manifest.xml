@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
-	<remote name="a" fetch="https://github.com/AOSPA" />
-	<remote name="kailash" fetch="https://github.com/kailashrs" />
+	<remote name="kernel" fetch="https://github.com/ayanm09" />
 
     	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="derp" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="11" />
-    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kailash" revision="eleven" />
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
         <remove-project name="device/generic/opengl-transport" />
 </manifest>
