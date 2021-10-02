@@ -3,7 +3,7 @@
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
 	<remote name="kernel" fetch="https://github.com/ayanm09" />
 
-    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="derp" />
+    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="derp-test" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="11" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
         <remove-project name="device/generic/opengl-transport" />
