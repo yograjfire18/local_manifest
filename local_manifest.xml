@@ -6,5 +6,10 @@
     	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="derp-test" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="11" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
+        
         <remove-project name="device/generic/opengl-transport" />
+        <remove-project name="frameworks_base" />
+        
+        <project path="frameworks/base" name="frameworks_base" remote="yogi" revision="11" />
+
 </manifest>
