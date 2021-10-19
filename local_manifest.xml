@@ -69,14 +69,14 @@
 	  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="derp" /-->
 	  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="derp" clone-depth="1" />
 	  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
-	  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
+	  <!--project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
 	  <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
 	  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang"
-    		remote="github" revision="master" clone-depth="1" />
+    		remote="github" revision="master" clone-depth="1" /-->
 	
-	<!-- Hardware -->
+	<!-- Hardware >
 	  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
-	  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
+	  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" /-->
 	  <!--project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
 	  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
 	  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lineage" />
