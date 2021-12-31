@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
-	<remote name="kernel" fetch="https://github.com/ayanm09" />
+	<remote name="kernel" fetch="https://github.com/kailashrs" revision="twelve" />
+	<remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          revision="arcadia"
+          review="review.blissroms.org" />
 
-    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="derp" />
-    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="lineage-18.1" />
-    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="pissel-12" />
+    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" />
         
-        <remove-project name="device/generic/opengl-transport" />
-        <!--remove-project name="frameworks_base" />
-        
-        <project path="frameworks/base" name="frameworks_base" remote="yogi" revision="11" /-->
-
+        <remove-project name="hardware_qcom-caf_sm8150_audio" />
+	<remove-project name="hardware_qcom-caf_sm8150_media" />
+	<remove-project name="hardware_qcom-caf_sm8150_display" />
+	
+	<!-- Hals -->
+	<project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sdm845" />
 </manifest>
