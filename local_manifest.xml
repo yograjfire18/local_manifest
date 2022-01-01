@@ -11,9 +11,9 @@
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" />
         
-        <remove-project name="hardware_qcom-caf_sm8150_audio" />
-	<remove-project name="hardware_qcom-caf_sm8150_media" />
-	<remove-project name="hardware_qcom-caf_sm8150_display" />
+        <remove-project name="hardware_qcom-caf_sdm845_media" />
+	<remove-project name="hardware_qcom-caf_sdm845_audio" />
+	<remove-project name="hardware_qcom-caf_sdm845_display" />
 	
 	<!-- Hals -->
 	<project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
