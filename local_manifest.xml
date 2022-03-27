@@ -11,12 +11,12 @@
     	<project path="vendor/asus/Z01R" name="vendor_asus_Z01R" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" />
         
-        <!--remove-project name="hardware_qcom-caf_sdm845_media" />
+        <remove-project name="hardware_qcom-caf_sdm845_media" />
 	<remove-project name="hardware_qcom-caf_sdm845_audio" />
-	<remove-project name="hardware_qcom-caf_sdm845_display" /-->
+	<remove-project name="hardware_qcom-caf_sdm845_display" />
 	
 	<!-- Hals -->
-	<!--project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+	<project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
   	<project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm845" />
-  	<project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sdm845" /-->
+  	<project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sdm845" />
 </manifest>
