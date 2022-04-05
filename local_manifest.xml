@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
+        <remote name="ardjlon" fetch="https://github.com/Ardjlon" />
 	<remote name="kernel" fetch="https://github.com/bluehomewu" revision="twelve" />
 	<remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
@@ -10,6 +11,7 @@
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R-2" remote="yogi" revision="PE-12" />
     	<project path="vendor/asus/Z01R" name="vendor_asus_Z01R" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" />
+        <project path="vendor/PixelMod" name="vendor_PixelMod" remote="ardjlon" />
         
         <remove-project name="hardware_qcom-caf_sdm845_media" />
 	<remove-project name="hardware_qcom-caf_sdm845_audio" />
