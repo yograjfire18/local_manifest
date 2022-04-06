@@ -11,7 +11,7 @@
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="PE-12" />
     	<project path="vendor/asus/Z01R" name="vendor_asus_Z01R" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" />
-        <project path="vendor/PixelMod" name="vendor_PixelMod" remote="ardjlon" />
+        <!--project path="vendor/PixelMod" name="vendor_PixelMod" remote="ardjlon" /-->
         
         <remove-project name="hardware_qcom-caf_sdm845_media" />
 	<remove-project name="hardware_qcom-caf_sdm845_audio" />
