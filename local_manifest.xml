@@ -5,7 +5,7 @@
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="dotos" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" clone-depth="1" />
-    	<project path="kernel/asus/sdm845" name="andoird_kernel_asus_sdm845" remote="yogi" clone-depth="1" />
+    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" clone-depth="1" />
 
         <remove-project name="android_vendor_dot"/>
           <project path="vendor/dot" name="android_vendor_dot" remote="yogi" />
