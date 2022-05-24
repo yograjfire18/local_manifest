@@ -4,11 +4,11 @@
 	<remote name="los" fetch="https://github.com/LineageOS" />
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="dotos" />
-    	<project path="vendor/asus" name="vendor_asus" remote="yogi" />
-    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" />
+    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
+    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
 
         <remove-project name="android_vendor_dot"/>
-        <project path="vendor/dot" name="android_vendor_dot" remote="yogi" />
+        <project path="vendor/dot" name="android_vendor_dot" remote="yogi" revision="dot12.1" />
 
 	<!-- Prebuilts >
 	  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" clone-depth="1" />
