@@ -10,6 +10,9 @@
         <remove-project name="android_vendor_dot"/>
         <project path="vendor/dot" name="android_vendor_dot" remote="yogi" revision="dot12.1" />
 
+        <!-- remove -->
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" >
+
 	<!-- Prebuilts -->
 	  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
 	  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
