@@ -7,7 +7,7 @@
           revision="arcadia"
           review="review.blissroms.org" />
 
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Dot" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="dotos" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
 
