@@ -2,6 +2,10 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
 	<remote name="los" fetch="https://github.com/LineageOS" />
+        <remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          revision="arcadia"
+          review="review.blissroms.org" />
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Dot" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
@@ -13,8 +17,20 @@
         <!-- remove -->
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
         <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-	<!-- Prebuilts -->
-	  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
-	  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
+	
+        <!-- Prebuilts -->
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
 
+        <remove-project name="hardware_qcom-caf_sdm845_media" />
+	<remove-project name="hardware_qcom-caf_sdm845_audio" />
+	<remove-project name="hardware_qcom-caf_sdm845_display" />
+	
+        <remove-project name="android_hardware_qcom_sdm845_display" />
+        <remove-project name="android_hardware_qcom_sdm845_media" />
+        
+	<!-- Hals -->
+	<project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sdm845" />
 </manifest>
