@@ -7,8 +7,8 @@
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
 
-        <!--remove-project name="android_vendor_dot"/>
-        <project path="vendor/dot" name="android_vendor_dot" remote="yogi" revision="dot12.1" /-->
+        <remove-project name="android_vendor_dot"/>
+        <project path="vendor/dot" name="android_vendor_dot" remote="yogi" revision="dot12.1" />
 
         <!-- remove -->
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
