@@ -2,10 +2,8 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
 	<remote name="kernel" fetch="https://github.com/bluehomewu" revision="twelve" />
-	<remote name="BlissRoms"
-          fetch="https://github.com/BlissRoms"
-          revision="arcadia"
-          review="review.blissroms.org" />
+	<remote name="los"
+          fetch="https://github.com/LineageOS" />
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="PE-12" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
@@ -15,8 +13,8 @@
 	<remove-project name="hardware_qcom-caf_sdm845_audio" />
 	<remove-project name="hardware_qcom-caf_sdm845_display" />
 	
-	<!-- Hals -->
-	<project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm845" />
-  	<project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm845" />
-  	<project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sdm845" />
+	<project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-19.1-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="los" revision="lineage-19.1-caf-sdm845" />
+  	<project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="los" revision="lineage-19.1-caf-sdm845" />
+	
 </manifest>
