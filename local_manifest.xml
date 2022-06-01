@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
+	<remote name="yogi" fetch="https://github.com/yograjfire18" />
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Derp-12" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
