@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
+	<remote name="blaze" fetch="https://github.com/ProjectBlaze" />
 
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="aex" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
+	
+	<remove-project name="platform_vendor_qcom_opensource_packages_apps_Bluetooth"/>
+	<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="blaze" revision="12.1" />
 	
 	<!-- remove >
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
