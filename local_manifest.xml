@@ -3,7 +3,7 @@
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
 	<remote name="lineage" fetch="https://github.com/LineageOS" />
 
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="PE-12" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="aosp" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
         
