@@ -4,7 +4,7 @@
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
 	<remote name="kailash" fetch="https://github.com/kailashrs" />
           
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Bliss-12.1" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Evo-12.1" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_asus_sdm845" remote="yogi" revision="twelve" />
 
