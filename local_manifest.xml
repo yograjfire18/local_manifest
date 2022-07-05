@@ -7,7 +7,7 @@
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="twelve" />
 
-        <!- remove-project name="packages_apps_BlazeHouse" />
+        <!-- remove-project name="packages_apps_BlazeHouse" />
         <remove-project name="frameworks_base" />
 	<project path="packages/apps/BlazeHouse" name="blaze_packages_apps_BlazeHouse" remote="yogi" revision="12.1" />
 	<project path="frameworks/base" name="blaze_frameworks_base" remote="yogi" revision="12.1" /-->
