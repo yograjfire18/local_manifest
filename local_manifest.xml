@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
-        <remote name="kernel" fetch="https://github.com/bluehomewu" />
       
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="temp" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="derp-13" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="13" />
-    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="yogi" revision="twelve" />
+    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-20" />
 	
 </manifest>
