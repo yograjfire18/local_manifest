@@ -2,8 +2,8 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
       
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="derp-13" />
-    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="13" />
-    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-20" />
-	
+    	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="yogi" revision="test" />
+    	<project path="vendor/realme/spartan" name="proprietary_vendor_realme_spartan" remote="yogi" />
+    	<project path="kernel/realme/RE54E4L1" name="realme_kernel_sm8250" remote="yogi" revision="temp" />
+	<project path="hardware/oplus" name="android_hardware_oplus" remote="yogi" revision="test" />
 </manifest>
