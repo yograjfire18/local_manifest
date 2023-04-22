@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjfire18" />
       
-    	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="yogi" revision="test" />
+    	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="yogi" revision="arrow-13" />
     	<project path="vendor/realme/spartan" name="proprietary_vendor_realme_spartan" remote="yogi" revision="derp-t"  />
     	<project path="kernel/realme/RE54E4L1" name="realme_kernel_sm8250" remote="yogi" revision="temp" />
 	<project path="hardware/oplus" name="android_hardware_oplus" remote="yogi" revision="test" />
