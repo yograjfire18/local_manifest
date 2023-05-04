@@ -4,6 +4,6 @@
       
     	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="3tdevs" revision="test" />
     	<project path="vendor/realme/spartan" name="proprietary_vendor_realme_spartan" remote="3tdevs" revision="test"  />
-    	<project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" remote="3tdevs" revision="lineage-20.0" />
+    	<project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" remote="3tdevs" revision="13" />
 	<project path="hardware/oplus" name="android_hardware_oplus" remote="3tdevs" revision="test" />
 </manifest>
