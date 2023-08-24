@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="3tdevs" fetch="https://github.com/RealmeGTNeo3T-Devs" revision="13" />
+	<remote name="derp-gms" fetch="https://gitlab.com/DerpFest" revision="13" />
       
-    	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="3tdevs" />
+    	<project path="device/realme/spartan" name="android_device_realme_spartan" remote="3tdevs" revision="lineage-20" />
     	<project path="vendor/realme/spartan" name="proprietary_vendor_realme_spartan" remote="3tdevs" />
     	<project path="kernel/realme/sm8250" name="android_kernel_realme_spartan" remote="3tdevs" />
 	<project path="hardware/oplus" name="android_hardware_oplus" remote="3tdevs" />
+	<project path="vendor/gms" name="vendor_gms" remote="derp-gms" />
 </manifest>
